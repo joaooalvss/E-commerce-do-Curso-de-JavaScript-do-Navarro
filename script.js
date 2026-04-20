@@ -57,7 +57,7 @@ function addToCart(id, title, price) {
 }
 
 function updateCartDisplay() {
-    const cartCount = document.getElementsByClassName('cart-count')
+    const cartCount = document.getElementsById('cart-count')
     const cartItemsContainer = document.getElementById('cart-items')
     const cartTotalPrice = document.getElementById('cart-total-price')
 
